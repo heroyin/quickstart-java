@@ -43,30 +43,4 @@
     </plugins>
   </build>
 
-    <repositories>
-        <repository>
-            <id>test-nexus</id>
-            <name>test</name>
-            <url>http://10.74.20.125:8081/repository/maven-public/</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-    
-    <pluginRepositories>
-        <pluginRepository>
-            <id>nexus</id>
-            <name>Nexus Snapshot Repository</name>
-            <url>http://10.74.20.125:8081/repository/maven-public/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
-
-
 </project>
